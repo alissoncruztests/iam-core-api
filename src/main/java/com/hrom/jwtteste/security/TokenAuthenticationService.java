@@ -17,7 +17,7 @@ import java.util.stream.Collectors;
 public class TokenAuthenticationService {
 
     // Expiration time = 10 days
-    private static final long EXPIRATION_TIME = 1000 * 2;//860_000_000;
+    private static final long EXPIRATION_TIME = 860_000_000;
     private static final String SECRET = "MySecret";
     private static final String TOKEN_PREFIX = "Bearer";
     private static final String HEADER_STRING = "Authorization";
